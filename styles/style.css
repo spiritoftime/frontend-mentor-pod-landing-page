@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+}
+body,
+html {
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Chivo", sans-serif;
+  /* background-image: url("../starter-code/assets/mobile/image-host.jpg"); */
+  background-color: #121725;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../starter-code/assets/mobile/image-host.jpg");
+  filter: brightness(0.3);
+  z-index: -1;
+}
+/* .overlay {
+  background-color: #121725;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+} */
+.landing-page {
+  /* background: url("../starter-code/assets/mobile/image-host.jpg"), #121725; */
+  height: 100%;
+  z-index: -1;
+}
+.landing-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 7rem 0 6.2rem;
+}
+/* icons */
+.landing-icon {
+  height: 6rem;
+  width: 15rem;
+}
+.icon {
+  color: #c2cbe5;
+  height: 2rem;
+  width: 4rem;
+}
+.enlarge {
+  transform: scale(1.5);
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.icon-name {
+  color: #c2cbe5;
+  font-size: 1.2rem;
+}
+/* cta */
+.description {
+  padding: 0 3rem;
+  text-align: center;
+}
+.cta {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+.highlight-cta {
+  color: #54e6af;
+  display: block;
+}
+.description-text {
+  color: #c2cbe5;
+  font-size: 1.5rem;
+}
+.podcast-logos {
+  display: flex;
+  padding: 0 3rem;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.featured-icon {
+  transform: scale(0.5);
+}
+.input {
+  margin: 0 2rem;
+  padding: 1.5rem 2rem;
+
+  border-radius: 30px;
+}
+.email {
+  background-color: #2c344b;
+  color: #c2cbe5;
+  margin-bottom: 1rem;
+}
+.access {
+  color: black;
+  background-color: #54e6af;
+  text-align: center;
+}
+.input-text {
+  font-weight: 700;
+}
