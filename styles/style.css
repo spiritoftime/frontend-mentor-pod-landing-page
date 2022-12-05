@@ -73,14 +73,17 @@ body::before {
 }
 /* cta */
 .description {
-  padding: 0 3rem;
-  text-align: center;
+  padding: 0 4rem;
+  /* text-align: center; */
 }
 .cta {
-  font-size: 2.4rem;
+  font-size: 2.9rem;
   text-transform: uppercase;
   margin-bottom: 3rem;
   color: #fff;
+}
+.centered-word {
+  text-align: center;
 }
 .highlight-cta {
   color: #54e6af;
@@ -92,7 +95,7 @@ body::before {
 }
 .podcast-logos {
   display: flex;
-  padding: 0 3rem;
+  padding: 0 5rem;
   justify-content: space-between;
   margin-top: 4rem;
   margin-bottom: 3rem;
@@ -101,7 +104,7 @@ body::before {
   transform: scale(0.5);
 }
 .input-container {
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
 .input {
   padding: 1.5rem 2rem;
