@@ -1,4 +1,7 @@
 @media (min-width: 500px) {
+  html {
+    font-size: 65%;
+  }
   .input-container {
     position: relative;
     width: 80%;
@@ -75,6 +78,9 @@
   }
 }
 @media (min-width: 650px) {
+  html {
+    font-size: 67%;
+  }
   .landing-page::before {
     background-image: url("../assets/desktop/image-host.jpg");
     /* background-size: contain; */
@@ -83,6 +89,9 @@
   }
 }
 @media (min-width: 1000px) {
+  html {
+    font-size: 70%;
+  }
   .pseudo-icon {
     left: 80%;
     bottom: 10%;
