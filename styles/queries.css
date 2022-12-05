@@ -76,7 +76,7 @@
 }
 @media (min-width: 650px) {
   .landing-page::before {
-    background-image: url("../starter-code/assets/desktop/image-host.jpg");
+    background-image: url("../assets/desktop/image-host.jpg");
     /* background-size: contain; */
     background-position: center;
     width: 63%;
@@ -89,5 +89,8 @@
   }
   body {
     padding: 4rem 0 4rem 7rem;
+  }
+  .content {
+    width: 65%;
   }
 }
