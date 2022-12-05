@@ -1,10 +1,2 @@
 @media (min-width: 500px) {
-  .input-container {
-    position: relative;
-  }
-  .btn {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
 }
