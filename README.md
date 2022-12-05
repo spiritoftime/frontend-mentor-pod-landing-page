@@ -7,6 +7,7 @@ What i have learnt:
 - when styling a button in terms of background color, some white space may appear around it. To fix this, we will need to set a border to the button and give it that same background color.
 
 3. learnt how to work with pseudo elements (before and after)
+4. to make each child div have different width, i could just set the width to a % of the parent div (ie. resizing description text from 500px onward)
 
 Some queries to address:
 
