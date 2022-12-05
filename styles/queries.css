@@ -1,2 +1,93 @@
 @media (min-width: 500px) {
+  .input-container {
+    position: relative;
+    width: 80%;
+    /* display: flex; */
+  }
+  .description-div {
+    width: 80%;
+  }
+  .access {
+    position: absolute;
+    right: 2rem;
+    top: 0;
+  }
+  .content {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    /* border: 4px solid black; */
+    z-index: 1;
+    background-color: #121725;
+    gap: 3rem;
+  }
+  .landing-icon {
+    height: 4rem;
+    width: 12rem;
+  }
+  .podcast-logos {
+    order: 1;
+    margin: 0;
+  }
+  .description {
+    text-align: left;
+  }
+  body::before {
+    display: none;
+  }
+  .landing-icon-container {
+    display: block;
+    padding: 3rem 2rem 7rem;
+    z-index: 1;
+    background-color: #121725;
+    width: 20%;
+  }
+  .icon-container {
+    justify-content: space-around;
+  }
+  .landing-page {
+    position: relative;
+  }
+  .landing-page::before {
+    background-image: url("../starter-code/assets/mobile/image-host.jpg");
+    background-size: cover;
+    content: "";
+    width: 43%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+  }
+
+  .isVisible {
+    display: block;
+  }
+  .pseudo-icon {
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    bottom: 0%;
+    left: 2%;
+  }
+}
+@media (min-width: 650px) {
+  .landing-page::before {
+    background-image: url("../starter-code/assets/desktop/image-host.jpg");
+    /* background-size: contain; */
+    background-position: center;
+    width: 63%;
+  }
+}
+@media (min-width: 1000px) {
+  .pseudo-icon {
+    left: 80%;
+    bottom: 10%;
+  }
+  body {
+    padding: 4rem 0 4rem 7rem;
+  }
 }
